@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: demo-agent-vm
+  name: Default   # or your actual agent pool name
 
 steps:
 - script: echo Hello, world!
